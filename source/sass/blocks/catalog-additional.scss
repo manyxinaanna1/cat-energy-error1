@@ -1,0 +1,14 @@
+@media (min-width: 1300px) {
+  .catalog-additional__container {
+      grid-template-columns: repeat(4, 1fr);
+      -moz-column-gap: 80px;
+      column-gap: 80px;
+  }
+  }
+  .catalog-aditional__heading {
+      font-family: "Oswald", "Arial", sans-serif;
+      font-size: 24x;
+      line-height: 24px;
+      font-weight: 400;
+      text-transform: uppercase;
+  }

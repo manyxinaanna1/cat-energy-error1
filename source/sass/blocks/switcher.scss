@@ -1,0 +1,31 @@
+.switcher {
+    display: grid;
+    grid-template-columns: 49px 1fr 49px;
+    align-items: center;
+    gap: 13px;
+    padding: 0 35px;
+}
+@media (min-width: 768px) {
+.switcher {
+    grid-template-columns: 70px 1fr 70px;
+    padding: 0 58px;
+}
+}
+@media (min-width: 1300px) {
+.switcher {
+    padding: 0;
+}
+}
+
+
+.switcher__bar {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+}
+@media (min-width: 768px) {
+.switcher__toggler {
+    display: none;
+}
+}

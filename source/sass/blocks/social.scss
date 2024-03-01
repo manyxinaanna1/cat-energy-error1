@@ -1,0 +1,17 @@
+.social {
+    padding: 12px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+.social__item {
+    margin: 0 4px;
+    display: flex;
+    align-items: center;
+}
+.social__link {
+    display: block;
+    padding: 8px;
+    color: #666666;
+}

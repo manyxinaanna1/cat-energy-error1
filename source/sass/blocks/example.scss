@@ -1,0 +1,31 @@
+.example {
+    background-color: #EAEAEA;
+}
+@media (min-width: 768px) {
+.example {
+    padding-top: 43px;
+    border-top: 1px solid #e6e6e6;
+    background-image: linear-gradient(to top, #ebebeb 462px, #ffffff 462px);
+}
+}
+@media (min-width: 1300px) {
+.example {
+    padding-bottom: 75px;
+}
+}
+
+@media (min-width: 1300px) {
+.example__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+}
+}
+.example__heading {
+    margin: 0;
+    margin-bottom: 40px;
+    font-family: "Oswald", "Arial", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+}

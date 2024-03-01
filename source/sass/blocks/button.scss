@@ -1,0 +1,51 @@
+.button--secondary {
+  color: #444444;
+  background-color: #f2f2f2;
+}
+.promo__button {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+.promo__button {
+  width: auto;
+  justify-self: start;
+}
+}
+
+
+.button {
+  padding: 11px 12px;
+  display: inline-block;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  background: #68B738;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+.button {
+  padding: 14px 26px;
+  font-size: 20px;
+  line-height: 1;
+}
+}
+.switcher__button {
+  color: #000000;
+  background: transparent;
+  border: none;
+  text-transform: uppercase;
+}
+@media (min-width: 768px) {
+  .switcher__button {
+      padding: 0;
+      padding-bottom: 4px;
+      justify-self: center;
+      border-bottom: 1px dotted rgba(0, 0, 0, 0.24);
+      font-size: 20px;
+  }
+  }

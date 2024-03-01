@@ -1,0 +1,16 @@
+.page-footer {
+    padding: 20px 0 22px;
+    background-color: #f2f2f2;
+}
+@media (min-width: 768px) {
+.page-footer {
+    padding: 58px 0 55px;
+}
+}
+@media (min-width: 768px) {
+.page-footer__container {
+    display: grid;
+    grid-template-columns: 164px 1fr 164px;
+    gap: 16px;
+}
+}
