@@ -16,12 +16,12 @@
 }
 }
 @media (min-width: 768px) {
-    .site-menu__item {
+  site-menu__item {
         margin-right: 33px;
     }
 }
 @media (min-width: 768px) {
-    .site-menu__item:last-shild {
+  .site-menu__link:last-shild {
         margin-right: 0;
     }
 }
@@ -30,6 +30,7 @@
     text-decoration: none;
 }
 @media (min-width: 1300px) {
-.site-menu--main .site-menu__link {
+.site-menu--main .site-menuu__link {
     color: #ffffff;
+}
 }
